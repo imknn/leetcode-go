@@ -2,9 +2,9 @@
 
 | 题号 | 题目 | 代码 | 题解 |
 |------|------|------|------|
-| 2 | [两数相加](https://leetcode.cn/problems/add-two-numbers/) | [code_2.go](code_2.go) | |
-| 19 | [删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/) | [code_19.go](code_19.go) | |
-| 21 | [合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/) | [code_21.go](code_21.go) | |
-| 83 | [删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/) | [code_83.go](code_83.go) | |
-| 237 | [删除链表中的节点](https://leetcode.cn/problems/delete-node-in-a-linked-list/) | [code_237.go](code_237.go) | |
-| 1290 | [二进制链表转整数](https://leetcode.cn/problems/convert-binary-number-in-a-linked-list-to-integer/) | [code_1290.go](code_1290.go) | |
+| 2 | [两数相加](https://leetcode.cn/problems/add-two-numbers/) | [code_2.go](code_2.go) | [📝](../docs/0002-add-two-numbers.md) |
+| 19 | [删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/) | [code_19.go](code_19.go) | [📝](../docs/0019-remove-nth-node-from-end-of-list.md) |
+| 21 | [合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/) | [code_21.go](code_21.go) | [📝](../docs/0021-merge-two-sorted-lists.md) |
+| 83 | [删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/) | [code_83.go](code_83.go) | [📝](../docs/0083-remove-duplicates-from-sorted-list.md) |
+| 237 | [删除链表中的节点](https://leetcode.cn/problems/delete-node-in-a-linked-list/) | [code_237.go](code_237.go) | [📝](../docs/0237-delete-node-in-a-linked-list.md) |
+| 1290 | [二进制链表转整数](https://leetcode.cn/problems/convert-binary-number-in-a-linked-list-to-integer/) | [code_1290.go](code_1290.go) | [📝](../docs/1290-convert-binary-number-in-a-linked-list-to-integer.md) |

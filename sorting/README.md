@@ -2,4 +2,4 @@
 
 | 题号 | 题目 | 代码 | 题解 |
 |------|------|------|------|
-| 169 | [多数元素](https://leetcode.cn/problems/majority-element/) | [code_169.go](code_169.go) | |
+| 169 | [多数元素](https://leetcode.cn/problems/majority-element/) | [code_169.go](code_169.go) | [📝](../docs/0169-majority-element.md) |
