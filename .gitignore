@@ -4,4 +4,5 @@ target
 
 # AI
 .playwright-mcp/
-.claude/
+.claude/*
+!.claude/skills/
