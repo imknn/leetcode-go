@@ -5,6 +5,7 @@
 | 3 | [无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/) | [code_3.go](code_3.go) | [📝](../docs/0003-longest-substring-without-repeating-characters.md) |
 | 5 | [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/) | [code_5.go](code_5.go) | [📝](../docs/0005-longest-palindromic-substring.md) |
 | 6 | [Z 字形变换](https://leetcode.cn/problems/zigzag-conversion/) | [code_6.go](code_6.go) | [📝](../docs/0006-zigzag-conversion.md) |
+| 8 | [字符串转换整数 (atoi)](https://leetcode.cn/problems/string-to-integer-atoi/) | [code_8.go](code_8.go) | |
 | 12 | [整数转罗马数字](https://leetcode.cn/problems/integer-to-roman/) | [code_12.go](code_12.go) | |
 | 13 | [罗马数字转整数](https://leetcode.cn/problems/roman-to-integer/) | [code_13.go](code_13.go) | |
 | 14 | [最长公共前缀](https://leetcode.cn/problems/longest-common-prefix/) | [code_14.go](code_14.go) | |
