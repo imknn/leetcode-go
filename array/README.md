@@ -3,6 +3,10 @@
 | 题号 | 题目 | 代码 | 题解 |
 |------|------|------|------|
 | 1 | [两数之和](https://leetcode.cn/problems/two-sum/) | [code_1.go](code_1.go) | |
+| 11 | [盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/) | [code_11.go](code_11.go) | |
+| 15 | [三数之和](https://leetcode.cn/problems/3sum/) | [code_15.go](code_15.go) | |
+| 16 | [最接近的三数之和](https://leetcode.cn/problems/3sum-closest/) | [code_16.go](code_16.go) | |
+| 18 | [四数之和](https://leetcode.cn/problems/4sum/) | [code_18.go](code_18.go) | |
 | 26 | [删除排序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/) | [code_26.go](code_26.go) | |
 | 27 | [移除元素](https://leetcode.cn/problems/remove-element/) | [code_27.go](code_27.go) | |
 | 48 | [旋转图像](https://leetcode.cn/problems/rotate-image/) | [code_48.go](code_48.go) | |
