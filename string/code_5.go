@@ -1,35 +1,29 @@
 package string
 
-//
-//// f[i,j] = f[i+1, j-1] and si == sj
-//
-//func longestPalindrome(s string) string {
-//	ret, max := s[0:1], 1
-//	length := len(s)
-//	var result = make([]bool, length*length) // 二维转一维
-//	// 坐标是  i*length+1 i*length+j
-//	for i := 0; i < length; i++ {
-//		result[i*length+i] = true // 回文串长度1
-//		if i < length-1 { // 回文串长度2
-//			if s[i] == s[i+1] {
-//				if max < 2 {
-//					max = 2
-//					ret = s[i : i+max]
-//				}
-//				result[i*length+i+1] = true
-//			} else {
-//				result[i*length+i+1] = false
-//			}
-//		}
-//		for j := 2; j < length; j++ { // j 表示回文串的长度
-//			idx:= i*length+j
-//			result[idx] = result[(i+1)*length+(j-1)] && s[i] == s[j]
-//			if result[idx] && (j-i + 1) > max{
-//				max = j-i+1
-//
-//			}
-//
-//		}
-//	}
-//	return ""
-//}
+// 5. 最长回文子串
+// 中心扩展法：从每个字符（或两字符间隙）向两边扩展
+// 时间 O(n²)，空间 O(1)
+func longestPalindrome(s string) string {
+	if len(s) < 2 {
+		return s
+	}
+	start, maxLen := 0, 1
+
+	expand := func(left, right int) {
+		for left >= 0 && right < len(s) && s[left] == s[right] {
+			if right-left+1 > maxLen {
+				start = left
+				maxLen = right - left + 1
+			}
+			left--
+			right++
+		}
+	}
+
+	for i := 0; i < len(s); i++ {
+		expand(i, i)   // 奇数长度回文
+		expand(i, i+1) // 偶数长度回文
+	}
+
+	return s[start : start+maxLen]
+}
