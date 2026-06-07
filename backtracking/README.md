@@ -1,7 +1,7 @@
-# 回溯 (Backtracking)
+# 回溯 — backtracking/
 
-| 题号 | 名称 | 文件 | 状态 |
+| 题号 | 题目 | 代码 | 题解 |
 |------|------|------|------|
-| 37 | 解数独 | code_37.go | 已解决 |
-| 78 | 子集 | code_78.go | 已解决 |
-| 784 | 字母大小写全排列 | code_784.go | 已解决 |
+| 37 | [解数独](https://leetcode.cn/problems/sudoku-solver/) | [code_37.go](code_37.go) | |
+| 78 | [子集](https://leetcode.cn/problems/subsets/) | [code_78.go](code_78.go) | |
+| 784 | [字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation/) | [code_784.go](code_784.go) | [📝](../docs/0784-letter-case-permutation.md) |

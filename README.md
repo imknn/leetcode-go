@@ -4,27 +4,22 @@ LeetCode 刷题记录，按算法分类整理。
 
 ## 分类目录
 
-| 分类 | 目录 | 题数 |
+| 分类 | 题数 | 说明 |
 |------|------|------|
-| 数组 | [array/](array/) | 16 |
-| 字符串 | [string/](string/) | 21 |
-| 链表 | [linked_list/](linked_list/) | 5 |
-| 栈/队列 | [stack_queue/](stack_queue/) | 2 |
-| 二分查找 | [binary_search/](binary_search/) | 2 |
-| 动态规划 | [dynamic_programming/](dynamic_programming/) | 3 |
-| 位运算 | [bit_manipulation/](bit_manipulation/) | 13 |
-| 数学 | [math/](math/) | 17 |
-| 哈希表 | [hash/](hash/) | 4 |
-| 回溯 | [backtracking/](backtracking/) | 3 |
-| 排序 | [sorting/](sorting/) | 1 |
-| 随机化 | [random/](random/) | 1 |
-| 其他 | [other/](other/) | 2 |
-| Shell | [shell/](shell/) | 3 |
-| **合计** | | **93** |
-
-## 公共工具
-
-[common/](common/) - 提供 `Gcd`、`Reverse` 等公共函数。
+| [数组](array/) | 16 | 两数之和、移动零、合并有序数组等 |
+| [字符串](string/) | 22 | 最长回文子串、无重复子串、反转字符串等 |
+| [链表](linked_list/) | 5 | 两数相加、合并链表、删除节点等 |
+| [栈/队列](stack_queue/) | 2 | 有效的括号、删除外层括号 |
+| [二分查找](binary_search/) | 3 | 寻找中位数、搜索插入位置、平方根 |
+| [动态规划](dynamic_programming/) | 3 | 最大子数组和、爬楼梯、斐波那契数 |
+| [位运算](bit_manipulation/) | 13 | 只出现一次的数字、汉明距离、两数之和等 |
+| [数学](math/) | 17 | 整数反转、回文数、计数质数等 |
+| [哈希表](hash/) | 4 | 字母异位词分组、宝石与石头等 |
+| [回溯](backtracking/) | 3 | 解数独、子集、字母大小写全排列 |
+| [排序](sorting/) | 1 | 多数元素 |
+| [随机化](random/) | 1 | 用 Rand7() 实现 Rand10() |
+| [其他](other/) | 2 | 猜数字、替换空格 |
+| [Shell](shell/) | 3 | 统计词频、有效电话号码、转置文件 |
 
 ## 运行测试
 
@@ -33,8 +28,8 @@ LeetCode 刷题记录，按算法分类整理。
 go test ./...
 
 # 运行某个分类的测试
-go test ./array/
+go test ./string/
 
 # 运行单个测试
-go test ./array/ -run Test_twoSum
+go test ./string/ -run Test_lengthOfLongestSubstring
 ```
